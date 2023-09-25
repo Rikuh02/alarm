@@ -1,0 +1,59 @@
+
+*{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border;
+}
+
+.relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(92, 83, 69);
+    color: rgb(146, 221, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #888;
+}
+
+.time_alarm{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='number']{
+    border: 1px solid #000;
+    font-size:larger;
+    cursor:pointer;
+    border-radius: 5px;
+    padding: 5px;
+    width: 210px;
+}
+
+button{
+    background-color: #aaa;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alarm{
+    background-color: tomato !important;
+}
